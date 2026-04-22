@@ -1,0 +1,44 @@
+MEAS:FRES?\s100,\s1.50E-6
+
+
+======================================================
+--------------	AGILENT 34401A VOLTMETR	--------------
+======================================================
+NAVOD STRANA 105 vsechny prikazy
+
+CONFigure:VOLT:DC\s1.0E-1\n
+SENSe:VOLTage:DC:RANGe\s1.0E-1\n
+	Ranges:  100 mV,  1 V,  10 V,  100 V,  1000 V (750 Vac)
+	Maximum resolution:  100 nV (on 100 mV range)
+
+SYSTem:ERRor?\n
+
+SYST:REM\n
+
+READ?\n
+
+VYSLEDEK:
++9.11000000E-06
+HEWLETT-PACKARD,34401A,0,11-5-2
+
+
+
+
+======================================================
+--------------	AGILENT 34450A OHMMETR	--------------
+======================================================
+strana 76
+
+SYST:ERR?\n
+
+// dvouvodicove
+CONF:RES\s10000,3.0e-5\n
+
+// ctyrvodicove
+CONF:FRES\s10000,3.0e-5\n
+
+CONF?\n
+
+READ?\n
+
+
