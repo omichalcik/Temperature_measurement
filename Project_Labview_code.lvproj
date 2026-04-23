@@ -42,8 +42,13 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+			<Item Name="Sensor parameters.ctl" Type="VI" URL="../controls/Sensor parameters.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="calc_running_avg.vi" Type="VI" URL="../calc_running_avg.vi"/>
+		<Item Name="init_34401A.vi" Type="VI" URL="../init_34401A.vi"/>
+		<Item Name="init_34450.vi" Type="VI" URL="../init_34450.vi"/>
+		<Item Name="temperature_calc.vi" Type="VI" URL="../temperature_calc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
