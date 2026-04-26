@@ -49,6 +49,7 @@
 		<Item Name="init_34401A.vi" Type="VI" URL="../init_34401A.vi"/>
 		<Item Name="init_34450.vi" Type="VI" URL="../init_34450.vi"/>
 		<Item Name="temperature_calc.vi" Type="VI" URL="../temperature_calc.vi"/>
+		<Item Name="type_A_uncertainty.vi" Type="VI" URL="../type_A_uncertainty.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
